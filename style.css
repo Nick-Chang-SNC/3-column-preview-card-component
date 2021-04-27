@@ -1,0 +1,81 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  line-height: 1.6;
+}
+
+h1 {
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5.5em 1em;
+}
+
+.main-container {
+  min-width: 290px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.sedan-link,
+.suv-link,
+.luxury-link {
+  display: inline-block;
+  font-family: 'Lexend Deca', sans-serif;
+  text-decoration: none;
+  border-radius: 50px;
+  background-color: hsl(0, 0%, 95%);
+  padding: 1em 2em;
+  margin-top: 1em;
+}
+
+.sedan-link {
+  color: hsl(31, 77%, 52%);
+}
+
+.suv-link {
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury-link {
+  color: hsl(179, 100%, 13%);
+}
+
+.sedan-container {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 10px 0 0;
+}
+
+.suv-container {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury-container {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 0 10px 10px;
+}
+
+.sedan-container,
+.suv-container,
+.luxury-container {
+  padding: 3em;
+}
