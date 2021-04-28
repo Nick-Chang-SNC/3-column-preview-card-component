@@ -29,7 +29,7 @@ p {
 
 .main-container {
   min-width: 290px;
-  max-width: 800px;
+  max-width: 600px;
   margin: 0 auto;
 }
 
@@ -71,20 +71,36 @@ p {
   color: hsl(31, 77%, 52%);
 }
 
+.sedan-link:hover,
+.sedan-link:focus {
+  color: #000;
+}
+
 .suv-link {
   color: hsl(184, 100%, 22%);
+}
+
+.suv-link:hover,
+.suv-link:focus {
+
 }
 
 .luxury-link {
   color: hsl(179, 100%, 13%);
 }
 
+.luxury-link:hover,
+.luxury-link:focus {
+
+}
+
 /* Desktop version */
 @media (min-width: 1024px) {
+
   .main-container {
     display: flex;
     min-width: 1000px;
-    max-width: 1300px;
+    max-width: 1200px;
   }
 
   .sedan-container {
@@ -93,13 +109,5 @@ p {
 
   .luxury-container {
     border-radius: 0 10px 10px 0;
-  }
-
-  .sedan-container,
-  .suv-container,
-  .luxury-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
   }
 }
